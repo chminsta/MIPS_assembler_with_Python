@@ -2,6 +2,9 @@
 Python code that change assembly code to OP code.
 ###### 컴퓨터 구조 실습도중 어셈블리 코드를 op 코드로 손으로 바꿔야 하는 task가 있었고 사람들이 편하게 바꾸도록 파이썬 코드로 짰습니다.
 --------------------------------------------------
+### input assembly.txt
+### output instruction_hex.txt, instruction_bin.txt &rarr; 각각 16진수, 2진수 .txt
+--------------------------------------------------
 ## Available Assembly code
 
 - R-type: add, sub
@@ -16,4 +19,4 @@ Python code that change assembly code to OP code.
   
  - No operation : nop (위 instruction이 없으면 nop으로 간주)
  
- - ###### J-type은 안 넣음
+ - ###### J-type은 아직 안 넣음
