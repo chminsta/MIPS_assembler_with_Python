@@ -6,10 +6,9 @@ Python code that change assembly code to OP code.
 ### output: instruction_hex.txt, instruction_bin.txt &rarr; 각각 16진수, 2진수 .txt
 --------------------------------------------------
 ## Available Assembly code
--Branch Address
-  * (branch address): (instruction)
-  * such as
-  * LOOP1: add $1 $1 $2 
+- Branch Address
+  * (branch address): (instruction), such as
+    *  LOOP1: add $1 $1 $2 
 - R-type: add, sub, and, or
   * add   $a $b $c    &rarr;  000000 b_5bit c_5bit a_5bit 00000 100000
   * sub   $a $b $c    &rarr;  000000 b_5bit c_5bit a_5bit 00000 100010
