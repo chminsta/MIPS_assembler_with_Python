@@ -1,4 +1,4 @@
-Label: lw $1 4($2)
-add $4 $1 $2
-or $8 $1 $9
-beq $8 $10 Label
+Label:  lw $1 4($2)
+        add $4, $1, $2 주석주석
+        or $8, $1, $9 주석이 두개 지 요
+        beq $8, $10, Label
