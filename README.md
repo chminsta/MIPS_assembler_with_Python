@@ -5,11 +5,9 @@ Python code that change assembly code to OP code.
 ### input:  assembly.txt
 ### output: instruction_hex.txt, instruction_bin.txt &rarr; 각각 16진수, 2진수 .txt
 --------------------------------------------------
-### 주의 
-### 1. , 넣지말것
-### 2. 각 줄앞에 tab 하지 말것 (고칠 수 있으나 굳이 귀찮음) 
-### 3. 각 instruction 뒤에 주석 써도 됨! 기호 안써도 됨. 아래와 같은 형식으로 써도 잘 돌아감
-* add $1 $1 $2 1에 2랑 1 더한거 넣기
+### Comments: comments after each instruction, no symbols required. The following format works well
+* add $1 $1 $2 comments is ok! damn bro whats up
+##### + You can write ',' and tab in start of line, python will remove that and assemble it
 ---------------------------------------------------
 ## Available Assembly code
 - Branch Address
