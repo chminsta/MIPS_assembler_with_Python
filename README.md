@@ -37,4 +37,4 @@ Python code that change assembly code to OP code.
 3. output will have binary and hex op codes.
 4. if run verilog_helper.py, it will make a verilog_code.txt that define the reg
 
-#GOOD LUCK on your VERILOG!!
+# GOOD LUCK on your VERILOG!!
