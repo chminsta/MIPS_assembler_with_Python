@@ -28,3 +28,13 @@ Python code that change assembly code to OP code.
  - No operation : nop (위 instruction이 없으면 nop으로 간주)
  
  - ###### J-type은 아직 안 넣음
+
+
+--------------------------------------------------------------------------
+# HOW to use?
+1. make assembly code in assembly_code.txt
+2. run assembly_to_opcode.py
+3. output will have binary and hex op codes.
+4. if run verilog_helper.py, it will make a verilog_code.txt that define the reg
+
+#GOOD LUCK on your VERILOG!!
